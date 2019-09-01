@@ -3,7 +3,7 @@
 \docType{data}
 \name{camun}
 \alias{camun}
-\title{Dados experimentais utilizando Camundongos}
+\title{Dados experimentais utilizando camundongos}
 \format{Um  \code{data.frame} com 93 linhas e 4 variaveis.
 \describe{
    \item{grupo}{tratamento (1 se controle, 2 se dose 10mg, 3 se dose 1mg e 4 se dose 0.1mg)}

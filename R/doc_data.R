@@ -125,7 +125,7 @@
 "desmame"
 
 
-#'Dados experimentais utilizando Camundongos
+#'Dados experimentais utilizando camundongos
 #'
 #'Dados com efeito do fungo protetor Saccharomycs boulardii em ratos com sistema himunologico debilitado.
 #'
@@ -150,3 +150,32 @@
 "camun"
 
 
+#'Dados de tempo de vida de mangueiras
+#'
+#'Dados com a resistencia a pragas de mangueiras e com censura intervalar.
+#'
+#' @docType data
+#'
+#' @usage data(mang)
+#'
+#' @format Um  \code{data.frame} com 210 linhas e 8 variaveis.
+#' \describe{
+#'    \item{ano}{}
+#'    \item{ti}{}
+#'    \item{cens}{}
+#'    \item{li}{}
+#'    \item{ui}{}
+#'    \item{copa}{}
+#'    \item{cavalo}{}
+#'    \item{bloco}{}
+#' }
+#'
+#' @keywords datasets
+#'
+#' @references Chalitaet al.(1999)
+#'
+#' @source Colosimo, E. A.; Giolo, S. R. (2006). Analise de Sobrevivencia Aplicada. Sao Paulo: Edgard Blucher.
+#'
+#' @examples
+#' data(mang)
+"mang"

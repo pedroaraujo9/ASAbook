@@ -59,6 +59,13 @@ camun %<>%
 
 save(camun, file="data/camun.rda")
 
+#dados mangueira
+mang = fread("inst/asa_data/mang.txt") %>% as.data.frame()
+
+head(mang)
+
+
+save(mang, file="data/mang.rda")
 
 
 
