@@ -13,8 +13,14 @@ How to use
 Just use the function `data` with the dataset name as argument, then the dataset will be avaliable in your workspace.
 
 Example:
-    libray(ASAbook)
+
+    #load package
+    libray(ASAbook) 
+    #load data
     data("leucemia")
+    #printing the first six observations
+    head(leucemia) 
+
 
 Datasets
 -------
