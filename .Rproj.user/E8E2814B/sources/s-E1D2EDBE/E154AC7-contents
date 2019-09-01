@@ -1,7 +1,7 @@
 library(data.table)
 library(tidyverse)
 library(roxygen2)
-
+library(magrittr)
 
 #dado hepatite
 tempos = c(1, 2, 3, 3, 3, 5, 5, 16, 16, 16, 16, 16, 16, 16, 16,
@@ -48,4 +48,26 @@ head(desmame)
 save(desmame, file='data/desmame.rda')
 
 
-#
+#dados camun
+camun = fread('inst/asa_data/camun.txt') %>% as.data.frame()
+names(camun) = str_to_lower(names(camun))
+
+head(camun)
+
+camun %<>%
+  mutate(grupo = as.factor(grupo))
+
+save(camun, file="data/camun.rda")
+
+
+
+
+
+
+
+
+
+
+
+
+

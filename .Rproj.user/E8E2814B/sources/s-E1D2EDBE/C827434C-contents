@@ -124,3 +124,29 @@
 #' data(desmame)
 "desmame"
 
+
+#'Dados experimentais utilizando Camundongos
+#'
+#'Dados com efeito do fungo protetor Saccharomycs boulardii em ratos com sistema himunologico debilitado.
+#'
+#' @docType data
+#'
+#' @usage data(camun)
+#'
+#' @format Um  \code{data.frame} com 93 linhas e 4 variaveis.
+#' \describe{
+#'    \item{grupo}{tratamento (1 se controle, 2 se dose 10mg, 3 se dose 1mg e 4 se dose 0.1mg)}
+#'    \item{peso}{peso do rato em gramas}
+#'    \item{tempo}{tempo de vida em dias apos a aplicacao do tratamento}
+#'    \item{censura}{indicador de censura (0 indica censura)}
+#' }
+#'
+#' @keywords datasets
+#'
+#' @source Colosimo, E. A.; Giolo, S. R. (2006). Analise de Sobrevivencia Aplicada. Sao Paulo: Edgard Blucher.
+#'
+#' @examples
+#' data(camun)
+"camun"
+
+

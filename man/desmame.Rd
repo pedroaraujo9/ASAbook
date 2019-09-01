@@ -6,7 +6,7 @@
 \title{Dados de aleitamento materno}
 \format{Um  \code{data.frame} com 150 linhas e 13 variaveis.
 \describe{
-   \item{tempo de aleitamento materno em meses}{}
+   \item{tempo}{empo de aleitamento materno em meses}
    \item{cens}{indicador de censura (0 indica censura)}
    \item{id}{identificacao da mae}
    \item{V1}{experiencia com amamentacao (1 se nao)}
