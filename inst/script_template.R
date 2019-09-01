@@ -88,6 +88,17 @@ save(hg2, file="data/hg2.rda")
 
 
 
+#dados raca
+cattle = fread("inst/asa_data/cattle.txt") %>% as.data.frame()
+
+head(cattle)
+
+
+save(cattle, file = "data/cattle.rda")
+
+
+
+
 
 
 

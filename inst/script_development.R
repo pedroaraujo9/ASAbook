@@ -13,6 +13,7 @@ ASAbook::camun %>% head()
 ASAbook::mang %>% head()
 ASAbook::laringe %>% head()
 ASAbook::hg2 %>% head()
+ASAbook::cattle %>% head()
 
 data("leucemia")
 data("hepatite")
@@ -21,8 +22,8 @@ data("desmame")
 data("camun")
 data("mang")
 data("laringe")
-data(hg2)
-
+data("hg2")
+data("cattle")
 
 ?leucemia
 ?hepatite
@@ -32,3 +33,4 @@ data(hg2)
 ?mang
 ?laringe
 ?hg2
+?cattle

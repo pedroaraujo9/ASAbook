@@ -243,3 +243,35 @@
 "hg2"
 
 
+#'Estudo raca nelore
+#'
+#'Dado com o tempo de crecimento de gado da raca nelore
+#'
+#' @docType data
+#'
+#' @usage data(cattle)
+#'
+#' @format Um  \code{data.frame} com 155 linhas e 6 variaveis.
+#' \describe{
+#'    \item{id}{identificador do animal}
+#'    \item{sire}{}
+#'    \item{tempo}{}
+#'    \item{censura}{indicador de censura (0 se censura)}
+#'    \item{sex}{sexo do animal}
+#'    \item{agedam}{}
+#' }
+#'
+#' @keywords datasets
+#'
+#'
+#' @source Colosimo, E. A.; Giolo, S. R. (2006). Analise de Sobrevivencia Aplicada. Sao Paulo: Edgard Blucher.
+#'
+#' @examples
+#' data(cattle)
+#'
+#'
+"cattle"
+
+
+
+
