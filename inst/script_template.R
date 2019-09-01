@@ -107,7 +107,15 @@ save(breast, file='data/breast.rda')
 View(breast)
 
 
+#dado ovario
+ovario = fread("inst/asa_data/ovario.txt") %>% as.data.frame()
+names(ovario)= c('pac', 'tempo', 'cens', 'trat', 'idade', 'res', 'status')
 
+head(ovario)
+
+ovario %<>% mutate(trat = factor(trat), status = factor(status), res = factor(res))
+
+save(ovario, file="data/ovario.rda")
 
 
 

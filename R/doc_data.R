@@ -305,3 +305,33 @@
 "breast"
 
 
+#'Dados cancer de ovario
+#'
+#'Dados com efeito de dois tratamentos pos-sirurgicos em pacientes com cancer de ovario.
+#'
+#'
+#' @docType data
+#'
+#' @usage data(ovario)
+#'
+#' @format Um  \code{data.frame} com 26 linhas e 8 variaveis.
+#' \describe{
+#'    \item{pac}{identificador do paciente}
+#'    \item{tempo}{tempo em dias ate a morte do paciente}
+#'    \item{trat}{tipo de tratamento recebido}
+#'    \item{idade}{idade do paciente}
+#'    \item{res}{tipo de residuo da doenca (1 se completamente removida, 2 se parcialmente removida)}
+#'    \item{status}{condicao do doente no inicio do estudo (1 se boa, 2 se ruim)}
+#' }
+#'
+#' @keywords datasets
+#'
+#' @source Colosimo, E. A.; Giolo, S. R. (2006). Analise de Sobrevivencia Aplicada. Sao Paulo: Edgard Blucher.
+#'
+#' @examples
+#' data(ovario)
+#'
+#'
+"ovario"
+
+
