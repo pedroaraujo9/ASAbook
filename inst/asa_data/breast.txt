@@ -11,7 +11,7 @@ left	right	ther	cens
 11	15	1	1
 11	18	1	1
 15 	NA	1	0
-17      NA   	1	0
+17	NA   	1	0
 17	25	1	1
 17	25	1	1
 18	NA	1	0

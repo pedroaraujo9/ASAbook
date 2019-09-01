@@ -5,15 +5,15 @@
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "0",
+    "hash" : "1178355266",
     "id" : "59085B9D",
-    "lastKnownWriteTime" : 1567373391,
-    "last_content_update" : 1567373391995,
+    "lastKnownWriteTime" : 1567374135,
+    "last_content_update" : 1567374135433,
     "path" : "C:/Users/pedro/Desktop/repositories/ASAbook/inst/script_development.R",
     "project_path" : "inst/script_development.R",
     "properties" : {
-        "cursorPosition" : "36,0",
-        "scrollLine" : "1"
+        "cursorPosition" : "39,0",
+        "scrollLine" : "4"
     },
     "relative_order" : 2,
     "source_on_save" : false,

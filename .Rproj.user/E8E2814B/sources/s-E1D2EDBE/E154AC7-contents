@@ -96,6 +96,17 @@ head(cattle)
 
 save(cattle, file = "data/cattle.rda")
 
+#dados mama
+
+breast = fread("inst/asa_data/breast.txt") %>% as.data.frame()
+
+head(breast)
+
+save(breast, file='data/breast.rda')
+
+View(breast)
+
+
 
 
 

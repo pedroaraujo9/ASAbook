@@ -274,4 +274,34 @@
 
 
 
+#'Dados de cancer de mama
+#'
+#'Estudo para avaliar o efeito de diferentes tratamentos contra o cancer de mama.
+#'A variavel de interesse e o tempo ate se observar uma retracao severa da mama
+#'
+#'
+#' @docType data
+#'
+#' @usage data(breast)
+#'
+#' @format Um  \code{data.frame} com 94 linhas e 4 variaveis.
+#' \describe{
+#'    \item{left}{}
+#'    \item{right}{}
+#'    \item{ther}{}
+#'    \item{cens}{indicador de censura (0 se censura)}
+#' }
+#'
+#' @keywords datasets
+#'
+#' @references Klein e Moeschberger (1997)
+#'
+#' @source Colosimo, E. A.; Giolo, S. R. (2006). Analise de Sobrevivencia Aplicada. Sao Paulo: Edgard Blucher.
+#'
+#' @examples
+#' data(breast)
+#'
+#'
+"breast"
+
 
