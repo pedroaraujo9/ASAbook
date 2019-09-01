@@ -4,7 +4,7 @@
 \name{mang}
 \alias{mang}
 \title{Dados de tempo de vida de mangueiras}
-\format{Um  \code{data.frame} com 210 linhas e 8 variaveis.
+\format{Um  \code{data.frame} com 210 linhas e 8 variaveis
 \describe{
    \item{ano}{}
    \item{ti}{}
@@ -22,10 +22,12 @@ Colosimo, E. A.; Giolo, S. R. (2006). Analise de Sobrevivencia Aplicada. Sao Pau
 data(mang)
 }
 \description{
-Dados com a resistencia a pragas de mangueiras e com censura intervalar.
+Dados com a resistencia a pragas de mangueiras e com censura intervalar
 }
 \examples{
 data(mang)
+
+
 }
 \references{
 Chalitaet al.(1999)

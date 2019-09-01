@@ -67,6 +67,22 @@ head(mang)
 
 save(mang, file="data/mang.rda")
 
+#dados laringe
+laringe = fread("inst/asa_data/laringe.txt") %>% as.data.frame()
+
+head(laringe)
+
+laringe %<>% mutate(estagio = as.factor(estagio))
+
+save(laringe, file="data/laringe.rda")
+
+
+#
+
+
+
+
+
 
 
 

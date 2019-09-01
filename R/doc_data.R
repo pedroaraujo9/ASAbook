@@ -152,13 +152,13 @@
 
 #'Dados de tempo de vida de mangueiras
 #'
-#'Dados com a resistencia a pragas de mangueiras e com censura intervalar.
+#'Dados com a resistencia a pragas de mangueiras e com censura intervalar
 #'
 #' @docType data
 #'
 #' @usage data(mang)
 #'
-#' @format Um  \code{data.frame} com 210 linhas e 8 variaveis.
+#' @format Um  \code{data.frame} com 210 linhas e 8 variaveis
 #' \describe{
 #'    \item{ano}{}
 #'    \item{ti}{}
@@ -178,4 +178,41 @@
 #'
 #' @examples
 #' data(mang)
+#'
+#'
 "mang"
+
+
+
+
+#'Dados estudo sobre cancer de laringe
+#'
+#'Dados com o tempo de vida de pacientes com cancer de laringe em diferentes estagios.
+#'
+#' @docType data
+#'
+#' @usage data(mang)
+#'
+#' @format Um  \code{data.frame} com 210 linhas e 8 variaveis.
+#' \describe{
+#'    \item{id}{identificacao do paciente}
+#'    \item{tempos}{tempo ate a morte do paciente (meses)}
+#'    \item{cens}{indicador de censura (0 se censura)}
+#'    \item{idade}{idade em anos}
+#'    \item{estagio}{estagio da doenca (1 se tumor primario, 2 se envolve nodulo, 3 se metastase e 4 combinacao dos estagios anteriores)}
+
+#' }
+#'
+#' @keywords datasets
+#'
+#' @references Klein e Moeschberger(1997)
+#'
+#' @source Colosimo, E. A.; Giolo, S. R. (2006). Analise de Sobrevivencia Aplicada. Sao Paulo: Edgard Blucher.
+#'
+#' @examples
+#' data(mang)
+#'
+#'
+"laringe"
+
+
