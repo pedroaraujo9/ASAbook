@@ -11,6 +11,8 @@ ASAbook::leucemia_cat %>% head()
 ASAbook::desmame %>% head()
 ASAbook::camun %>% head()
 ASAbook::mang %>% head()
+ASAbook::laringe %>% head()
+ASAbook::hg2 %>% head()
 
 data("leucemia")
 data("hepatite")
@@ -18,6 +20,9 @@ data("leucemia_cat")
 data("desmame")
 data("camun")
 data("mang")
+data("laringe")
+data(hg2)
+
 
 ?leucemia
 ?hepatite
@@ -25,3 +30,5 @@ data("mang")
 ?desmame
 ?camun
 ?mang
+?laringe
+?hg2

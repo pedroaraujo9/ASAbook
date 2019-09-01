@@ -67,16 +67,16 @@
 #'
 #' @format Um  \code{data.frame} com 103 linhas e 10 variaveis.
 #' \describe{
-#'    \item{leuini}{quantidade de leucocitos em 1000 leucocitos por mm^3}
+#'    \item{leuini}{}
 #'    \item{tempos}{tempo de vida a partir remissao ate a recidiva ou morte}
 #'    \item{cens}{indicador de censura (0 indica censura)}
-#'    \item{idade}{idade em meses}
-#'    \item{zpeso}{peso padronizado pela idade e sexo}
-#'    \item{zest}{altura padronizada pela idade e sexo}
-#'    \item{pas}{porcentagem de linfoblastos}
-#'    \item{vac}{porcentagem de vacuolos}
-#'    \item{risk}{fator de risco em \%}
-#'    \item{r6}{indicador de sucesso da remissao (1 indica sucesso)}
+#'    \item{idade}{}
+#'    \item{zpeso}{}
+#'    \item{zest}{}
+#'    \item{pas}{}
+#'    \item{vac}{}
+#'    \item{risk}{}
+#'    \item{r6}{}
 #' }
 #'
 #' @keywords datasets
@@ -178,8 +178,6 @@
 #'
 #' @examples
 #' data(mang)
-#'
-#'
 "mang"
 
 
@@ -191,7 +189,7 @@
 #'
 #' @docType data
 #'
-#' @usage data(mang)
+#' @usage data(laringe)
 #'
 #' @format Um  \code{data.frame} com 210 linhas e 8 variaveis.
 #' \describe{
@@ -210,9 +208,38 @@
 #' @source Colosimo, E. A.; Giolo, S. R. (2006). Analise de Sobrevivencia Aplicada. Sao Paulo: Edgard Blucher.
 #'
 #' @examples
-#' data(mang)
-#'
-#'
+#' data(laringe)
 "laringe"
+
+
+#'Hormonio de Crescimento
+#'
+#'add description
+#'
+#' @docType data
+#'
+#' @usage data(hg2)
+#'
+#' @format Um  \code{data.frame} com 80 linhas e 7 variaveis.
+#' \describe{
+#'    \item{tempos}{}
+#'    \item{cens}{indicador de censura (0 se centura)}
+#'    \item{raca}{}
+#'    \item{ialtura}{}
+#'    \item{trauma}{}
+#'    \item{recemnas}{}
+#'    \item{renda}{}
+#' }
+#'
+#' @keywords datasets
+#'
+#'
+#' @source Colosimo, E. A.; Giolo, S. R. (2006). Analise de Sobrevivencia Aplicada. Sao Paulo: Edgard Blucher.
+#'
+#' @examples
+#' data(hg2)
+#'
+#'
+"hg2"
 
 

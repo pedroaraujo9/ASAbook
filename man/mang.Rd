@@ -26,8 +26,6 @@ Dados com a resistencia a pragas de mangueiras e com censura intervalar
 }
 \examples{
 data(mang)
-
-
 }
 \references{
 Chalitaet al.(1999)

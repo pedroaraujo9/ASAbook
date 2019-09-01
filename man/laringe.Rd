@@ -16,15 +16,13 @@
 Colosimo, E. A.; Giolo, S. R. (2006). Analise de Sobrevivencia Aplicada. Sao Paulo: Edgard Blucher.
 }
 \usage{
-data(mang)
+data(laringe)
 }
 \description{
 Dados com o tempo de vida de pacientes com cancer de laringe em diferentes estagios.
 }
 \examples{
-data(mang)
-
-
+data(laringe)
 }
 \references{
 Klein e Moeschberger(1997)

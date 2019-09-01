@@ -77,6 +77,15 @@ laringe %<>% mutate(estagio = as.factor(estagio))
 save(laringe, file="data/laringe.rda")
 
 
+#dados hormonio de crescimento
+hg2 = fread("inst/asa_data/hg2.txt") %>% as.data.frame()
+
+head(hg2)
+
+hg2 %<>% mutate(raca = factor(raca))
+
+save(hg2, file="data/hg2.rda")
+
 
 
 

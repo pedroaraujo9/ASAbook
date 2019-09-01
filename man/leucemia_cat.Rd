@@ -6,16 +6,16 @@
 \title{Dados com tempo de vida de pacientes com leucemia}
 \format{Um  \code{data.frame} com 103 linhas e 10 variaveis.
 \describe{
-   \item{leuini}{quantidade de leucocitos em 1000 leucocitos por mm^3}
+   \item{leuini}{}
    \item{tempos}{tempo de vida a partir remissao ate a recidiva ou morte}
    \item{cens}{indicador de censura (0 indica censura)}
-   \item{idade}{idade em meses}
-   \item{zpeso}{peso padronizado pela idade e sexo}
-   \item{zest}{altura padronizada pela idade e sexo}
-   \item{pas}{porcentagem de linfoblastos}
-   \item{vac}{porcentagem de vacuolos}
-   \item{risk}{fator de risco em \%}
-   \item{r6}{indicador de sucesso da remissao (1 indica sucesso)}
+   \item{idade}{}
+   \item{zpeso}{}
+   \item{zest}{}
+   \item{pas}{}
+   \item{vac}{}
+   \item{risk}{}
+   \item{r6}{}
 }}
 \source{
 Colosimo, E. A.; Giolo, S. R. (2006). Analise de Sobrevivencia Aplicada. Sao Paulo: Edgard Blucher.
