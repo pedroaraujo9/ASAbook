@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1557321295672.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1703672462",
+    "id" : "59085B9D",
+    "lastKnownWriteTime" : 1567368036,
+    "last_content_update" : 1567368036519,
+    "path" : "C:/Users/pedro/Desktop/repositories/ASAbook/inst/script_development.R",
+    "project_path" : "inst/script_development.R",
+    "properties" : {
+        "cursorPosition" : "22,0",
+        "scrollLine" : "0"
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

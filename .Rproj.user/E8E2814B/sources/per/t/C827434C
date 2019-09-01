@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1567357726290.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2983026496",
+    "id" : "C827434C",
+    "lastKnownWriteTime" : 1567367550,
+    "last_content_update" : 1567367550785,
+    "path" : "C:/Users/pedro/Desktop/repositories/ASAbook/R/doc_data.R",
+    "project_path" : "R/doc_data.R",
+    "properties" : {
+        "cursorPosition" : "102,17",
+        "scrollLine" : "92",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

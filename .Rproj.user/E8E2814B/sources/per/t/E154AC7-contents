@@ -1,0 +1,51 @@
+library(data.table)
+library(tidyverse)
+library(roxygen2)
+
+
+#dado hepatite
+tempos = c(1, 2, 3, 3, 3, 5, 5, 16, 16, 16, 16, 16, 16, 16, 16,
+           1, 1, 1, 1, 4, 5, 7, 8, 10, 10, 12, 16, 16, 16)
+cens = c(rep(0, 2), rep(1, 2), rep(0, 11),
+         rep(1, 3), rep(0, 2), rep(1, 4), rep(0, 5))
+
+grupos = c(rep("controle", 15), rep("esteroide", 14))
+
+
+hepatite = data.frame(tempos, cens=cens, grupos=grupos)
+
+head(hepatite)
+save(hepatite, file="data/hepatite.rda")
+
+
+#dado leucemia
+leucemia = fread("inst/asa_data/leucemia.txt",
+             header = F, fill = T) %>% as.data.frame()
+leucemia = leucemia[,-5]
+head(leucemia)
+
+names(leucemia) = c("leuini", "tempos", "cens", "idade",
+                "zpeso", "zest", "pas", "vac","risk", "r6")
+
+
+head(leucemia)
+save(leucemia, file="data/leucemia.rda")
+
+
+#dado leucemia categorizado
+leucemia_cat = fread("inst/asa_data/leucemiacat.txt") %>% as.data.frame()
+head(leucemia_cat)
+leucemia_cat = leucemia_cat[,-1]
+
+save(leucemia_cat, file="data/leucemia_cat.rda")
+
+
+#dado de desmame
+desmame = fread("inst/asa_data/desmame.txt") %>% as.data.frame()
+names(desmame) = c("id", "tempo", "cens", str_c("V", 1:11))
+head(desmame)
+
+save(desmame, file='data/desmame.rda')
+
+
+#

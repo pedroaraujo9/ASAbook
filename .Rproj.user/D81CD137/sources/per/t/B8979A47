@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1556209720448.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "224600552",
+    "id" : "B8979A47",
+    "lastKnownWriteTime" : 1556210801,
+    "last_content_update" : 1556210801,
+    "path" : "~/Documents/UFMG/Rpackage/ASAbook/inst/script_development.R",
+    "project_path" : "inst/script_development.R",
+    "properties" : {
+        "cursorPosition" : "6,0",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

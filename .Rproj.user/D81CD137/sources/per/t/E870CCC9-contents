@@ -1,0 +1,29 @@
+#' Gastric data set
+#'
+#' @name gastric
+#' @docType data
+#' @author My Name \email{blahblah@@roxygen.org}
+#' @references \url{data_blah.com}
+#' @keywords data
+NULL
+
+
+#' Ovarian data set
+#'
+#' @name ovarian
+#' @docType data
+#' @author My Name \email{blahblah@@roxygen.org}
+#' @references \url{data_blah.com}
+#' @keywords data
+NULL
+
+
+
+#' IPASS data set
+#'
+#' @name ipass
+#' @docType data
+#' @author My Name \email{blahblah@@roxygen.org}
+#' @references \url{data_blah.com}
+#' @keywords data
+NULL

@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1557321292602.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3339998379",
+    "id" : "E154AC7",
+    "lastKnownWriteTime" : 1567368034,
+    "last_content_update" : 1567368034485,
+    "path" : "C:/Users/pedro/Desktop/repositories/ASAbook/inst/script_template.R",
+    "project_path" : "inst/script_template.R",
+    "properties" : {
+        "cursorPosition" : "21,26",
+        "scrollLine" : "15"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

@@ -1,0 +1,6 @@
+
+
+devtools::install()
+devtools::document()
+devtools::load_all()
+devtools::build()
