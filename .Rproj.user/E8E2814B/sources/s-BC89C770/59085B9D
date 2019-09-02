@@ -7,13 +7,13 @@
     "folds" : "",
     "hash" : "0",
     "id" : "59085B9D",
-    "lastKnownWriteTime" : 1567375247,
-    "last_content_update" : 1567375247241,
+    "lastKnownWriteTime" : 1567384596,
+    "last_content_update" : 1567384596028,
     "path" : "C:/Users/pedro/Desktop/repositories/ASAbook/inst/script_development.R",
     "project_path" : "inst/script_development.R",
     "properties" : {
-        "cursorPosition" : "23,13",
-        "scrollLine" : "0"
+        "cursorPosition" : "20,0",
+        "scrollLine" : "9"
     },
     "relative_order" : 2,
     "source_on_save" : false,
