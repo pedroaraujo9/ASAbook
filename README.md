@@ -3,10 +3,10 @@ R package with datasets and functions of the book *Análise de Sobrevivência Ap
 
 How to install
 -------
-
-    library(devtools)
-    install_github("pedroaraujo9/ASAbook")
-    
+```r
+library(devtools)
+install_github("pedroaraujo9/ASAbook")
+```
 
 How to use
 ---------
@@ -14,13 +14,16 @@ Just use the function `data` with the dataset name as argument, then the dataset
 
 Example:
 
-    #load package
-    libray(ASAbook) 
-    #load data
-    data("leucemia")
-    #printing the first six observations
-    head(leucemia) 
+```r
+#load package
+libray(ASAbook) 
+#load data
+data("leucemia")
+#printing the first six observations
+head(leucemia) 
+```
 
+    
 
 Datasets
 -------
