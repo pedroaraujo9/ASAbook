@@ -21,6 +21,8 @@ libray(ASAbook)
 data("leucemia")
 #printing the first six observations
 head(leucemia) 
+#getting information
+?leucemia
 ```
 
     
