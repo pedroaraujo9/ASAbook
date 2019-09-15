@@ -5,6 +5,8 @@ devtools::build()
 
 library(ASAbook)
 
+library(magrittr)
+
 ASAbook::leucemia %>% head()
 ASAbook::hepatite %>% head()
 ASAbook::leucemia_cat %>% head()
