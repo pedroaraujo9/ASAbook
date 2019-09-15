@@ -3,7 +3,7 @@
 \name{tp}
 \alias{tp}
 \title{Survival function percentile
-Estimative of Kaplan-Meyer survival function percentile by linear interpolation}
+Estimative of Kaplan-Meier survival function percentile by linear interpolation}
 \usage{
 tp(fit, p = 0.5)
 }
@@ -13,11 +13,11 @@ tp(fit, p = 0.5)
 \item{p}{numeric vector with percentiles.}
 }
 \value{
-vector with aproximation of the time.
+numeric vector with aproximation of the time.
 }
 \description{
 Survival function percentile
-Estimative of Kaplan-Meyer survival function percentile by linear interpolation
+Estimative of Kaplan-Meier survival function percentile by linear interpolation
 }
 \examples{
 data('leucemia')
