@@ -1,7 +1,7 @@
 Package: ASAbook
 Type: Package
 Title: survival datasets
-Version: 0.1.0
+Version: 0.1.1
 Author: Pedro Araujo 
 Maintainer: Pedro Araujo <pedromenezes98@gmail.com>
 Description: R package with documented datasets and functions of Analise de Sobrevivencia Aplicada (2006) book
