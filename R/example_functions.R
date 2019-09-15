@@ -100,16 +100,6 @@ vmr = Vectorize(function(fit, t) {
 
 
 
-vmr(fit, t = 2)
-
-library(survival)
-
-tempos = c(3, 4, 5.7, 6.5, 6.5, 8.4, 10, 10, 12, 15)
-cens = c(1, 0, 0, 1, 1, 0, 1, 0, 1, 1)
-fitl = survfit(Surv(tempos, cens) ~ 1)
-
-
-
 
 
 
